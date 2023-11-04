@@ -1,0 +1,76 @@
+.bundlesContainer{
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/main.jpeg");
+    overflow-x: hidden;
+    background-size: cover;
+    background-position-x: right;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 74px;
+    padding-right:45px ;
+    padding-left: 45px ;
+}
+
+.hulu-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.log-in > span {
+    color: grey;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+}
+
+.bundles-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    gap: 20px;
+}
+.bundle > h3 {
+    color:#00ED82;
+}
+
+.bundle > p {
+    color: white;
+}
+
+.bundle-img{
+    width: 100px;
+}
+
+.bundle{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.terms{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.terms > p {
+    color: white;
+}
