@@ -256,8 +256,49 @@ border-radius: 2px;
 }
 .plans{
     width: 100%;
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    
 }
+.plans-intro{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.plans-intro > h2 {
+    font-size: 48px;
+}
+.plans-clarity{
+    font-size: 18px;
+    text-align: center;
+}
+.horizontal-line{
+    height: 0.8px;
+    background-color: #FFFFFF99;
+    margin: 0px 150px;
+}
+/* .custom-line{
+    height: 5px;
+    border: 2px solid white;
+} */
 .plan-details{
     display: flex;
+    height: 13vh;
+    justify-content: space-between;
+    align-items: center;
+   margin: 0 150px;
+   padding-right: 80px;
+}
+
+.padd-lft{
+    padding-left: 260px;
+}
+
+.green-ticks-container{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
 }
