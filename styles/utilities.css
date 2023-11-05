@@ -12,11 +12,13 @@
   }
   
   .page {
+    font-family: "Graphik Web",sans-serif;
     display: flex;
     flex-direction: column;
     background-color: black;
     align-items: center;
     color: white;
+
   }
 
   

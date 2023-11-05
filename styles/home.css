@@ -27,7 +27,6 @@
 
 .log-in > span {
     color: grey;
-    font-family: "Graphik Web",sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 1;
@@ -40,28 +39,48 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 70%;
+    height: 60%;
     gap: 20px;
+    
+    
+    
 }
-.bundle > h3 {
+.bundle > span {
     color:#00ED82;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .bundle > p {
     color: white;
+    font-size: 18px;
+    padding: 0 50px;
+    text-align: center;
+    font-weight: bold;
+   
 }
 
 .bundle-img{
-    width: 100px;
+    width: 200px;
 }
 
 .bundle{
-    
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    width: 25%;
+    height: 55%;
+    margin-top: 90px ;
+}
+
+.bundle-button{
+background-color: #00ED82;
+padding: 10px 90px;
+font-size: 14px;
+font-weight: bold;
+border-radius: 2px;
 }
 
 .terms{
@@ -73,6 +92,8 @@
 }
 .terms > p {
     color: white;
+    font-size: 14px;
+    text-decoration: underline;
 }
 
 .intro{
@@ -81,13 +102,25 @@
     /* width: 100%; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
     
 }
 
-.intro > span,h2,p,h3{
+.intro > span{
+    color: #00ED82;
+    font-size: 12px;
+}
+.intro > h2{
     color: white;
+    font-size: 38px;
+}
+.intro > p{
+    color: white;
+    font-size: 18px;
+    padding: 0 220px;
+    text-align: center;
 }
 
 .cards-container{
