@@ -302,3 +302,41 @@ border-radius: 2px;
     display: flex;
     justify-content: space-between;
 }
+
+footer{
+    height: 70vh;
+    width: 100%;
+    background-color: white;
+}
+
+.social-mdia-icons{
+    display: flex;
+    height: 13vh;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 150px;
+   padding-right: 80px;
+   gap: 50px;
+}
+
+.hr-line-black{
+    height: 0.8px;
+    background-color: black;
+    margin: 0px 150px;
+}
+
+.user-controls{
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 150px;
+   gap: 27px;
+   flex-wrap: wrap;
+}
+
+.user-controls > span {
+    color: black;
+    font-size: 12px;
+    
+}
